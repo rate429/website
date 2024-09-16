@@ -11,6 +11,11 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+const montserat = localFont({
+    src: "./fonts/Montserrat-VariableFont_wght.ttf",
+    variable: "--font-montserrat",
+    weight: "100 900",
+})
 
 export const metadata = {
   title: "Ruesume",
@@ -21,7 +26,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${montserat.variable} antialiased`}
       >
         {children}
       </body>
