@@ -1,0 +1,10 @@
+.Header {
+    margin:10px;
+    border-radius: 15px;
+    background-color: #2eff7e;
+    height: 125px;
+}
+.Header:hover {
+    transition: 15s;
+    margin: 5px;
+}
