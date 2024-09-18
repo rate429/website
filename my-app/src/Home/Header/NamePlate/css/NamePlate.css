@@ -1,0 +1,9 @@
+.NamePlate {
+    width:350px;
+    height:100px;
+    position:absolute;
+    background-color:black;
+    border-radius: 10px;
+    top:20px;
+    right:20px
+}
