@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.NamePlate {
+    @apply flex h-[100px] w-[15%] bg-black rounded-xl m-5 justify-center items-center;
+}
+
+#NameText {
+    @apply text-ThemeGreen text-7xl /* note make a font for text*/;
+}

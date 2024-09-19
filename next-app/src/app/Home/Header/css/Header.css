@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.Header {
+    @apply h-[125px] m-[15px] rounded-2xl bg-ThemeGreen flex items-center justify-end;
+    font-family: Roboto, sans-serif;
+}
