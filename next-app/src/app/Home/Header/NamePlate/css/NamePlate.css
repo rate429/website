@@ -7,5 +7,5 @@
 }
 
 #NameText {
-    @apply text-ThemeGreen text-7xl /* note make a font for text*/;
+    @apply text-ThemeGreen text-[40px] /* note make a font for text*/;
 }
